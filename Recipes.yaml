@@ -1,42 +1,42 @@
 # Recipe List
-- lasagne:
-	- ingredients
-		- onion
-		- garlic
-		- mince
-		- tinned tomatoes
-		- peppers
-		- passata
-		- cottage cheese
-		- cheese
-		- pasta sheets
-		- milk
-		- corn flour
-		- mustard
-		- black pepper
-		- mixed herbs
-	- optional
-		- garlic bread
-- bolognese:
-	- ingredients
-		- onion
-		- garlic
-		- mince
-		- tinned tomatoes
-		- peppers
-		- passata
-		- black pepper
-		- mixed herbs
-		- pasta
-	- optional
-		-garlic bread
-- tomato sauce:
-	-ingredients
-		- onion
-		- garlic
-		- tinned tomatoes
-		- peppers
-		- passata
-		- black pepper
-		- mixed herbs
-		- pasta
+lasagne:
+    ingredients:
+        - onion
+        - garlic
+        - mince
+        - tinned tomatoes
+        - peppers
+        - passata
+        - cottage cheese
+        - cheese
+        - pasta sheets
+        - milk
+        - corn flour
+        - mustard
+        - black pepper
+        - mixed herbs
+    optional:
+        - garlic bread
+bolognese:
+    ingredients:
+        - onion
+        - garlic
+        - mince
+        - tinned tomatoes
+        - peppers
+        - passata
+        - black pepper
+        - mixed herbs
+        - pasta
+    optional:
+        - garlic bread
+tomato sauce:
+    ingredients:
+        - onion
+        - garlic
+        - tinned tomatoes
+        - peppers
+        - passata
+        - black pepper
+        - mixed herbs
+        - pasta
