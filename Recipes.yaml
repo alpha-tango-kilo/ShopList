@@ -1,42 +1,160 @@
 # Recipe List
-lasagne:
-    ingredients:
-        - onion
-        - garlic
-        - mince
-        - tinned tomatoes
-        - peppers
-        - passata
-        - cottage cheese
-        - cheese
-        - pasta sheets
-        - milk
-        - corn flour
-        - mustard
-        - black pepper
-        - mixed herbs
-    optional:
-        - garlic bread
-bolognese:
-    ingredients:
-        - onion
-        - garlic
-        - mince
-        - tinned tomatoes
-        - peppers
-        - passata
-        - black pepper
-        - mixed herbs
-        - pasta
-    optional:
-        - garlic bread
 tomato sauce:
     ingredients:
         - onion
-        - garlic
         - tinned tomatoes
         - peppers
         - passata
         - black pepper
         - mixed herbs
+    optional:
+        - garlic
+bolognese:
+    ingredients:
+        - tomato sauce&
+        - mince
+    optional:
+        - garlic bread
         - pasta
+lasagne:
+    ingredients:
+        - bolognese&
+        - white sauce&
+        - cottage cheese
+        - cheese
+        - pasta sheets
+    optional:
+        - garlic bread
+cannelloni:
+    ingredients:
+        - bolognese&
+        - cannelloni 
+        - cheese
+chilli con carne:
+    ingredients:
+        - tinned tomatoes
+        - onion
+        - passata
+        - black pepper
+        - kidney beans
+        - chilli powder
+        - mince
+white sauce:
+    ingredients:
+        - corn flour
+        - milk
+        - mustard powder 
+taco mince:
+    ingredients:
+        - mince
+        - taco seasoning
+taco mince and rice:
+    ingredients:
+        - taco mince&
+        - rice
+        - cheese
+stuffed peppers:
+    ingredients:
+        - taco mince and rice&
+        - peppers
+taco mince and tortillas:
+    ingredients:
+        - taco mince&
+        - cheese 
+        - tortillas
+chorizo, beans and rice:
+    ingredients:
+        - chorizo 
+        - kidney beans
+        - rice
+        - spinach
+        - taco seasoning 
+        - peppers
+        - cheese
+chicken and pea risotto:
+    ingredients:
+        - chicken
+        - onion
+        - garlic 
+        - alborio rice
+        - chicken stock
+        - peas
+        - pepper
+        - oil
+cooked veg:
+    optional:
+        - peas
+        - sweetcorn
+        - mixed veg
+salad:
+    ingredients:
+        - cucumber 
+        - leaves
+fish and chips:
+    ingredients:
+        - fish 
+        - chips
+    optional:
+        - cooked veg&
+        - salad&
+fish finger sandwich:
+    ingredients:
+        - fish fingers
+        - bread
+        - tartar sauce
+tuna pasta bake:
+    ingredients:
+        - pasta
+        - milk
+        - tuna
+        - sweetcorn
+        - cheese
+sausages and cheese sauce:
+    ingredients:
+        - white sauce&
+        - cheese
+        - sausages
+    optional:
+        - veg&
+        - salad&
+sausages and mash:
+    ingredients:
+        - sausages
+        - mash
+    optional:
+        - veg&
+        - salad&
+curry:
+    ingredients:
+        -
+korma:
+    ingredients:
+        -
+burgers:
+    ingredients:
+        - burger
+        - rolls
+        - cheese
+        - salad&
+    optional:
+        - chips
+fry up:
+    ingredients:
+        - bacon
+        - egg
+        - beans
+    optional:
+        - hash browns
+        - toast
+fry up wraps:
+    ingredients:
+        -fry up&
+    optional:
+        - hash browns
+chicken steak and chips:
+    ingredients:
+        - chips
+        - chicken steak
+    optional:
+        - veg&
+        - salad&
