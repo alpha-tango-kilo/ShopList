@@ -109,6 +109,11 @@ tuna pasta bake:
         - tuna
         - sweetcorn
         - cheese
+pasta and cheese sauce:
+    ingredients:
+        - white sauce&
+        - cheese
+        - pasta
 sausages and cheese sauce:
     ingredients:
         - white sauce&
@@ -124,12 +129,6 @@ sausages and mash:
     optional:
         - veg&
         - salad&
-curry:
-    ingredients:
-        -
-korma:
-    ingredients:
-        -
 burgers:
     ingredients:
         - burger
@@ -151,6 +150,14 @@ fry up wraps:
         -fry up&
     optional:
         - hash browns
+chicken kiev:
+    ingredients:
+        - chicken kiev
+    optional:
+        - chips
+        - waffles
+        - veg&
+        - salad&
 chicken steak and chips:
     ingredients:
         - chips
@@ -158,3 +165,45 @@ chicken steak and chips:
     optional:
         - veg&
         - salad&
+hunters chicken:
+    ingredients:
+        - chicken
+        - bacon
+        - cheese
+        - BBQ sauce
+    optional:
+        - veg&
+        - salad&
+        - chips
+        - potato
+pie:
+    ingredients:
+        - pie
+    optional:
+        - veg&
+        - salad&
+quiche:
+    ingredients:
+        - quiche
+    optional:
+        - chips
+        - veg&
+        - salad&
+
+pancakes:
+    ingredients:
+        - egg
+        - milk
+        - flour
+    optional:
+        - bacon
+        - baking soda
+        - chocolate chips
+fajitas:
+    ingredients:
+        - fajita seasoning
+        - wraps 
+        - peppers
+        - onion
+        - cheese
+        - leaves
