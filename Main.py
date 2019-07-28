@@ -42,7 +42,7 @@ def main():
     OUTFILE = "./ShopList.yaml" # Save shopping list to here
     # Parse args
     """
-    SUPPORTED ARGS 
+    SUPPORTED FLAGS 
     -h | --help                 Help
     -i | --input [file]         Input file (meal plan)
     -o | --output [file]        Output file (shopping list)

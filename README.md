@@ -6,7 +6,7 @@ This project was created because I'd always leave something crucial to a recipe 
 ### Currently Implemented
 0. None! :)
 
-###Planned/Possible
+### Planned/Possible
 1. Shopping list generation
     1. Handling of optional ingredients
     2. Accounting for items you already have
