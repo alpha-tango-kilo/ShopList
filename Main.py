@@ -1,6 +1,9 @@
 import yaml     # handling YAML
 import getopt   # parsing args
 import sys      # getting args
+import os       # validating args
+
+from utils.pathValidate import is_path_exists_or_creatable as validatePath # validating args
 
 class Recipe:
     def __init__(self, name, ingredients = [], optional = []):
@@ -34,31 +37,40 @@ def openRecipes(path = "./Recipes.yaml"):
         
     return recipes
 
-def main(sysArgs):
+def main():
+    INFILE = "./Recipes.yaml" # Read recipes from here
+    OUTFILE = "./ShopList.yaml" # Save shopping list to here
     # Parse args
     """
     SUPPORTED ARGS 
-    -h                          Help
+    -h | --help                 Help
     -i | --input [file]         Input file (meal plan)
     -o | --output [file]        Output file (shopping list)
     """
     try:
-        opts, args = getopt.getopt(sysArgs, "hi:o:", ["input=", "output="])
+        optList, args = getopt.getopt(sys.argv[1:], "hi:o:", ["input=", "output="])
     except getopt.GetoptError:
         print("Invalid args, use -h for help")
         sys.exit(2)
     
-    for opt, arg in opts:
-        if opt == "-h":
-            pass
+    for opt, arg in optList:
+        if opt in ("-h", "--help"):
+            help(main)
+            sys.exit(0)
         elif opt in ("-i", "--input"):
-            pass
+            if os.path.exists(arg):
+                INFILE = arg
+            else:
+                raise ValueError("Input file not found / Path invalid. Use -h for help")
         elif opt in ("-o", "--output"):
-            pass
+            if validatePath(arg):
+                OUTFILE = arg
+            else:
+                raise ValueError("Invalid output path. Use -h for help")
     
     # Parse args
-    recipes = openRecipes("./Recipes.yaml")
+    recipes = openRecipes(INFILE)
     print(recipes)
 
 if __name__ == '__main__':
-    main(str(sys.argv[1:]))
+    main()
