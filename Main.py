@@ -66,9 +66,9 @@ SUPPORTED FLAGS
             raise ValueError("Invalid output path. Use -h for help")
     
     # Parse args
-    argHandler = EasyArgHandler([EasyFlag("h", helpFunc, "help"),
-                                 EasyFlag("i", inFunc, "input", True),
-                                 EasyFlag("o", outFunc, "output", True)])
+    argHandler = EasyArgHandler([EasyFlag("h", helpFunc, long = "help", isHelpCommand = True),
+                                 EasyFlag("i", inFunc, long = "input", needsArg = True),
+                                 EasyFlag("o", outFunc, long = "output", needsArg = True)])
     argHandler.handleArgs(sys.argv[1:])
     
     # Load recipes
