@@ -48,7 +48,7 @@ def main():
     -o | --output [file]        Output file (shopping list)
     """
     try:
-        optList, args = getopt.getopt(sys.argv[1:], "hi:o:", ["input=", "output="])
+        optList, args = getopt.getopt(sys.argv[1:], "hi:o:", ["help", "input=", "output="])
     except getopt.GetoptError:
         print("Invalid args, use -h for help")
         sys.exit(2)

@@ -43,6 +43,7 @@ def main():
         print('Task lists:')
         for item in items:
             print(u'{0} ({1})'.format(item['title'], item['id']))
+            print(item.keys())
 
 if __name__ == '__main__':
     main()
